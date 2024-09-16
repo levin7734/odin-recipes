@@ -1,0 +1,80 @@
+/* Main Colors: #F8AC48 (background), #191716 (text), #F4FFFD (white) */
+
+body {
+  background-color: #f8ac48;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #191716;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em; /* Größere Schriftgröße für den Titel */
+  margin-bottom: 20px; /* Weniger Abstand unter dem Titel */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px; /* Weniger Abstand zwischen Bild und Text */
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+  flex: 2;
+  background-color: rgb(244, 255, 253);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em; /* Größere Schriftgröße */
+  line-height: 1.6; /* Bessere Lesbarkeit durch erhöhten Zeilenabstand */
+}
+
+h2,
+h3 {
+  margin-top: 0;
+  font-size: 1.8em; /* Vergrößerte Überschriften */
+}
+
+ul,
+ol {
+  margin: 10px 0;
+  padding: 0 20px; /* Etwas Abstand für Listen */
+  list-style-position: inside;
+}
+
+ul li,
+ol li {
+  margin-bottom: 10px;
+}
+
+.content-container p {
+  margin-bottom: 20px;
+}
+
+.content-container ol {
+  padding-left: 20px;
+}
+.hero {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.heroli {
+  margin: 30px;
+  list-style: none;
+  font-size: 1.2em;
+}
